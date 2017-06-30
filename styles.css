@@ -39,18 +39,20 @@ body {
   background-color: #FFFFFF;
   display: flex;
   flex-flow: row;
-  justify-content: center;
+  justify-content: space-around;
+  height: 50px;
+  width: 1000px;
 }
 
 .navigation_bar a{
   color: #2B2F26;
-
-
 }
 
 #logo {
 margin-left: 10px;
-align-self:flex-start;
+height: 50px;
+position: absolute;
+left: 10px;
 }
 
 .wrapper {
@@ -59,10 +61,5 @@ align-self:flex-start;
     flex-flow: column;
     justify-content: center;
     width: 1000px;
-    margin: auto;
-}
-
-
-.content_title {
-  margin-top: 105px;
+    margin-top: 50px;
 }
