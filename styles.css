@@ -39,11 +39,13 @@ body {
   background-color: #FFFFFF;
   display: flex;
   flex-flow: row;
+  justify-content: center;
 }
 
 .navigation_bar a{
   color: #2B2F26;
-  display: inline;
+
+
 }
 
 #logo {
