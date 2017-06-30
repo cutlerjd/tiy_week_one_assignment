@@ -22,24 +22,24 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Merriweather', serif;
 https://fonts.google.com/?selection.family=Merriweather:300,300i,400,400i,700%7CRoboto:300,300i,400,400i
 */
-
+html, body, .wrapper /*.page*/{
+  height: 100%;
+}
 body {
-  margin: 0;
-  font-family: 'Merriweather', serif;
+  overflow: hidden;
 }
 
-.wrapper {
-    background-color: #F2F1E8;
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+.content_wrapper /*page-content*/ {
+  flex: 1 1 auto;
+  position: relative;
+  overflow-y: auto;
+}
+.wrapper /*.page*/{
+  display: flex;
+  flex-direction: column;
 }
 
-.navigation_bar {
-  position: fixed;
-}
-
-.navigation_bar nav {
+.site_header {
+  flex: 0 0 12em;
   background-color: #FFFFFF;
-  color: #2B2F26;
 }
