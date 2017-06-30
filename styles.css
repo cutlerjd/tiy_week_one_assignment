@@ -86,39 +86,37 @@ left: 10px;
   flex-grow:1;
   padding: 10px;
 }
+.list_second_row {
+  height: 200px;
+  flex-grow:1;
+  padding: 10px;
+}
+
 .list_first_row .product img {
   height: 300px;
 }
 .list_second_row .product img {
   height: 200px;
 }
-.list_second_row {
-  height: 200px;
-  flex-grow:1;
-  padding: 10px;
-}
+
 #product-1 {
   flex-grow:3;
 }
-
 #product-2 {
   flex-grow:1;
 }
-
 #product-3 {
-  flex-grow: 1;
+  flex-grow:1;
 }
 #product-4 {
   flex-grow:1;
 }
-
 #product-5 {
   flex-grow:1;
 }
-
 #product-6 {
-  flex-grow: 2;
+  flex-grow:2;
 }
 #product-7 {
-  flex-grow: 1;
+  flex-grow:1;
 }
