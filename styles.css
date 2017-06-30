@@ -22,3 +22,25 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Merriweather', serif;
 https://fonts.google.com/?selection.family=Merriweather:300,300i,400,400i,700%7CRoboto:300,300i,400,400i
 */
+html, body, .wrapper /*.page*/{
+  height: 100%;
+}
+body {
+  overflow: hidden;
+}
+
+.content_wrapper /*page-content*/ {
+  flex: 1 1 auto;
+  position: relative;
+  overflow-y: auto;
+
+}
+.wrapper /*.page*/{
+  display: flex;
+  flex-direction: column;
+}
+
+.site_header {
+  flex: 0 0 12em;
+  background-color: #FFFFFF;
+}
