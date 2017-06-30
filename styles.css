@@ -25,15 +25,30 @@ https://fonts.google.com/?selection.family=Merriweather:300,300i,400,400i,700%7C
 
 body {
   font-family: 'Merriweather', serif;
-
+  background-color: black;
+  margin: auto;
+  width: 1000px;
 }
 .nav_fixed_header {
   position: fixed;
-  display: flex;
   top: 0;
-  width: 100%;
-  justify-content: center;
-  padding: 0;
+  width: 1000px;
+}
+
+.navigation_bar {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-flow: row;
+}
+
+.navigation_bar a{
+  color: #2B2F26;
+  display: inline;
+}
+
+#logo {
+margin-left: 10px;
+align-self:flex-start;
 }
 
 .wrapper {
@@ -45,14 +60,7 @@ body {
     margin: auto;
 }
 
-.navigation_bar {
-  width: 1000px;
-}
-.navigation_bar nav {
-  width: inherit;
-  background-color: #FFFFFF;
-  color: #2B2F26;
-}
+
 .content_title {
   margin-top: 105px;
 }
