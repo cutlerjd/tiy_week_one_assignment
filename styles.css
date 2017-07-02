@@ -28,12 +28,12 @@ body {
   font-family: 'Merriweather', serif;
   background-color: black;
   margin: auto;
-  width: 1000px;
+  width: 1280px;
 }
 .nav_fixed_header {
   position: fixed;
   top: 0;
-  width: 1000px;
+  width: 1280px;
 }
 .navigation_bar {
   background-color: #FFFFFF;
@@ -42,7 +42,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 50px;
-  width: 1000px;
+  width: 1280px;
 }
 .navigation_bar a{
   color: #2B2F26;
@@ -61,7 +61,7 @@ left: 10px;
     display: flex;
     flex-flow: column;
     justify-content: center;
-    width: 1000px;
+    width: 1280px;
     margin-top: 50px;
 }
 .content_title h1{
@@ -80,11 +80,11 @@ left: 10px;
   flex-flow: row;
 }
 .list_first_row {
-  height: 300px;
+  height: 400px;
 }
 .list_second_row {
   margin-top: -20px;
-  height: 200px;
+  height: 280px;
 }
 
 .product {
@@ -99,14 +99,15 @@ left: 10px;
 }
 
 .product > span {
-  background-color: #F2F1E8;
+  color: #efe3bb;
+  background-color: #2B2F26;
   margin-left: 0px;
   margin-bottom: 10px;
-  padding: 5px 10px;
+  padding: 10px 20px;
 }
 
 #product-1 {
-  flex-grow:2;
+  flex-grow:3;
   background-image: url(./images/product-1.jpg);
 }
 #product-2 {
@@ -132,4 +133,10 @@ left: 10px;
 #product-7 {
   flex-grow:1;
   background-image: url(./images/product-7.jpg);
+}
+
+footer, footer > span {
+  color: #efe3bb;
+  background-color: #2B2F26;
+  padding: 30px 10px;
 }
