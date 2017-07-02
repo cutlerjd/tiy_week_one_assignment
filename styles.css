@@ -23,6 +23,10 @@ font-family: 'Merriweather', serif;
 https://fonts.google.com/?selection.family=Merriweather:300,300i,400,400i,700%7CRoboto:300,300i,400,400i
 */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Merriweather', serif;
   background-color: black;
@@ -77,19 +81,24 @@ left: 10px;
 .content_list {
   display: flex;
   flex-flow: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
   padding: 10px;
+  width: 1000px;
 }
 .list_first_row {
   height: 300px;
-  flex-grow:1;
-  padding: 10px;
 }
 .list_second_row {
   height: 200px;
-  flex-grow:1;
+}
+
+.content_list > .product {
+
+  flex-basis: auto;
+}
+
+.product img {
   padding: 10px;
+  width: 100%;
 }
 
 .list_first_row .product img {
@@ -98,6 +107,7 @@ left: 10px;
 .list_second_row .product img {
   height: 200px;
 }
+
 
 #product-1 {
   flex-grow:3;
