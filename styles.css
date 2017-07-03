@@ -127,7 +127,7 @@ left: 10px;
   background-image: url(./images/product-5.jpg);
 }
 #product-6 {
-  flex-grow:3;
+  flex-grow: 5;
   background-image: url(./images/product-6.jpg);
 }
 #product-7 {
@@ -149,6 +149,10 @@ footer, footer > span {
 }
 .content_article > * {
   padding: 0px 200px;
+}
+
+.content_article {
+
 }
 .content_quote {
   clear: both;
