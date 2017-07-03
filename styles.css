@@ -140,3 +140,36 @@ footer, footer > span {
   background-color: #2B2F26;
   padding: 30px 10px;
 }
+
+#birdhouse {
+  float: left;
+  height: 100px;
+  width: auto;
+  padding: 10px 20px 20px 0px;
+}
+.content_article > * {
+  padding: 0px 200px;
+}
+.content_quote {
+  clear: both;
+}
+
+#background-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./images/background-3.jpg);
+  height: 300px;
+}
+
+.article_wrapper_aside {
+  display: flex;
+  flex-flow: row;
+}
+aside > img {
+  width: 150px;
+  height: 150px;
+}
