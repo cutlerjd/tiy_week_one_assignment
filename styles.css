@@ -177,3 +177,41 @@ aside > img {
   width: 150px;
   height: 150px;
 }
+
+.form_div {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background-color: #F2F1E8;
+
+}
+input#full_name {
+  width:100%;
+}
+input#email {
+  width:100%;
+}
+#background-2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./images/background-2.jpg);
+  height: inherit;
+}
+#newsletter_body {
+  height: 100%;
+}
+#newsletter_div {
+  margin: auto;
+  height: 40vmax;
+  width: inherit;
+
+}
+h3, h4 {
+  text-align: center;
+}

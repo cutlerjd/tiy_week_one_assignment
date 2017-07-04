@@ -7,7 +7,9 @@
       </style>
       <title>Bent Creek Ceramics - Newsletter</title>
     </head>
-    <body>
+    <body id="newsletter_body">
+      <div id="newsletter_div">
+      <div class="nav_fixed_header">
       <header>
         <nav class="navigation_bar">
           <img src="images/bent-creek-logo.png" id="logo"</a>
@@ -16,11 +18,25 @@
           <a href="newsletter.html">Newsletter</a>
         </nav>
       </header>
-      <div class="form_wrapper" id="background-2">
-        <form name="newsletter_form">
-
-        </form>
+    </div>
+      <div class="wrapper" id="background-2">
+        <div class="form_div">
+          <form name="newsletter_form">
+            <h3>Sign Up for Our Weekly Newsletter</h3>
+            <h4>Stay up to date with events, activities, news and specials.</h4>
+            <input id="full_name" type="text" name="full_name" placeholder="Name"/>
+            <br />
+            <input id="email" type="email" name="email" placeholder="Email" />
+          </form>
+          <div>
+            <button type="submit" id="submit_button">Submit</button>
+          </div>
+        </div>
       </div>
+      <footer>
+        <span>Copyright 2017, Bent Creek Ceramics</span>
+      </footer>
+    </div>
     </body>
   </head>
 </html>
