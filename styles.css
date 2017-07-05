@@ -34,6 +34,7 @@ body {
   position: fixed;
   top: 0;
   width: 1280px;
+  z-index: 20;
 }
 .navigation_bar {
   background-color: #FFFFFF;
@@ -180,7 +181,7 @@ aside > img {
 
 .form_div {
   position: relative;
-  width: 50%;
+  width: 800px%;
   height: 50%;
   margin: auto;
   display: flex;
@@ -189,13 +190,31 @@ aside > img {
   flex-wrap: nowrap;
   flex-direction: column;
   background-color: #F2F1E8;
+  padding: 20px;
 
 }
-input#full_name {
+
+form {
+  width: inherit;
+}
+input {
+  border: none;
+  background: none;
+  font-size: inherit;
+  border-bottom: 2px solid #968772;
+  padding:5px 0;
+  margin: 10px 0;
+}
+input#nameInput {
   width:100%;
 }
-input#email {
+input#emailInput {
   width:100%;
+}
+#signupButton {
+  background-color: #968772;
+  color: white;
+
 }
 #background-2 {
   background-size: cover;
@@ -208,9 +227,9 @@ input#email {
 }
 #newsletter_div {
   margin: auto;
-  height: 40vmax;
+  padding: auto 10px;
+  height: 600px;
   width: inherit;
-
 }
 h3, h4 {
   text-align: center;
