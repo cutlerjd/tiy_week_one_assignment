@@ -51,6 +51,9 @@ body {
   padding: 0 20px;
   text-transform: uppercase;
 }
+a {
+  color: #2B2F26;
+}
 #logo {
 margin-left: 10px;
 height: 50px;
@@ -155,10 +158,18 @@ footer, footer > span {
 
 .content_article p {
   line-height: 2em;
-  margin: 0px 20px;
+  margin-right: 20px;
+  font-size: 1.2em;
 }
 .content_quote {
   clear: both;
+  line-height: 2em;
+  margin-right: 20px;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 200;
+  border-left: 2px solid #131511;
+  padding-left: 20px;
 }
 
 #background-3 {
@@ -186,6 +197,9 @@ aside > img {
   margin: 20px 0px;
 
 }
+aside span {
+  font-weight: lighter;
+}
 
 .form_div {
   position: relative;
@@ -198,7 +212,7 @@ aside > img {
   flex-wrap: nowrap;
   flex-direction: column;
   background-color: #F2F1E8;
-  padding: 20px;
+  padding: 40px;
 
 }
 
@@ -239,9 +253,29 @@ input#emailInput {
 #newsletter_div {
   margin: auto;
   padding: auto 10px;
-  height: 600px;
+  height: 400px;
   width: inherit;
+}
+h2 {
+  text-align: left;
 }
 h3, h4 {
   text-align: center;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid #131511;
+  margin-bottom: 20px;
+}
+td, th {
+  border: 1px solid #131511;
+  padding: 10px;
+}
+
+thead {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(odd) {
+  background-color: #f2eadc;
 }
